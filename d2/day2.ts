@@ -17,7 +17,7 @@ for (let i = 0; i < p.length; i += 4) {
         case 2: // Multiply
             p[indexDest] = p[indexOp1] * p[indexOp2];
             break;
-        defalult:
+        default:
             console.log('Noop');
     }
     if (p[i] == 99) {
@@ -26,4 +26,5 @@ for (let i = 0; i < p.length; i += 4) {
     }
 }
 
-console.log('Result: ' + p[0]);
+console.log('Result part 1: ' + p[0]);
+
